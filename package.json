@@ -1,0 +1,18 @@
+{
+  "name": "doeet-mapper",
+  "version": "1.0.0",
+  "description": "remap vscode browser urls to vscode insiders",
+  "main": "index.js",
+  "repository": "https://github.com/mcansh/doeet-mapper",
+  "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-kentcdodds": "^14.3.1",
+    "eslint-config-mcansh": "^1.1.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "typescript": "^3.3.4000"
+  }
+}
