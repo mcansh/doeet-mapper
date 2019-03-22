@@ -6,6 +6,9 @@
   "repository": "https://github.com/mcansh/doeet-mapper",
   "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc && cp dist/index.js ./doeet-mapper-safari/doeet-mapper-safari && cp dist/index.js ./doeet-mapper-chrome"
+  },
   "devDependencies": {
     "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",

@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94F30EC2245735A009DA879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F30EB2245735A009DA879 /* AppDelegate.swift */; };
+		C94F30EE2245735C009DA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94F30ED2245735C009DA879 /* Assets.xcassets */; };
+		C94F30F12245735C009DA879 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F30EF2245735C009DA879 /* MainMenu.xib */; };
+		C94F3100224573B3009DA879 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F30FF224573B3009DA879 /* Cocoa.framework */; };
+		C94F3103224573B3009DA879 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F3102224573B3009DA879 /* SafariExtensionHandler.swift */; };
+		C94F3105224573B3009DA879 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */; };
+		C94F3108224573B3009DA879 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */; };
+		C94F310D224573B3009DA879 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */; };
+		C94F3111224573B3009DA879 /* doeet-mapper-safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94F310F224573B3009DA879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94F30E02245735A009DA879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94F30FC224573B3009DA879;
+			remoteInfo = "doeet-mapper-safari";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C94F3115224573B3009DA879 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C94F3111224573B3009DA879 /* doeet-mapper-safari.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C94F30E82245735A009DA879 /* doeet-mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doeet-mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F30EB2245735A009DA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C94F30ED2245735C009DA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94F30F02245735C009DA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C94F30F22245735C009DA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94F30F32245735C009DA879 /* doeet_mapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doeet_mapper.entitlements; sourceTree = "<group>"; };
+		C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "doeet-mapper-safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F30FF224573B3009DA879 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C94F3102224573B3009DA879 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		C94F3107224573B3009DA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		C94F3109224573B3009DA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		C94F310E224573B3009DA879 /* doeet_mapper_safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doeet_mapper_safari.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94F30E52245735A009DA879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F30FA224573B3009DA879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F3100224573B3009DA879 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94F30DF2245735A009DA879 = {
+			isa = PBXGroup;
+			children = (
+				C94F30EA2245735A009DA879 /* doeet-mapper */,
+				C94F3101224573B3009DA879 /* doeet-mapper-safari */,
+				C94F30FE224573B3009DA879 /* Frameworks */,
+				C94F30E92245735A009DA879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94F30E92245735A009DA879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94F30E82245735A009DA879 /* doeet-mapper.app */,
+				C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94F30EA2245735A009DA879 /* doeet-mapper */ = {
+			isa = PBXGroup;
+			children = (
+				C94F30EB2245735A009DA879 /* AppDelegate.swift */,
+				C94F30ED2245735C009DA879 /* Assets.xcassets */,
+				C94F30EF2245735C009DA879 /* MainMenu.xib */,
+				C94F30F22245735C009DA879 /* Info.plist */,
+				C94F30F32245735C009DA879 /* doeet_mapper.entitlements */,
+			);
+			path = "doeet-mapper";
+			sourceTree = "<group>";
+		};
+		C94F30FE224573B3009DA879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94F30FF224573B3009DA879 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C94F3101224573B3009DA879 /* doeet-mapper-safari */ = {
+			isa = PBXGroup;
+			children = (
+				C94F3102224573B3009DA879 /* SafariExtensionHandler.swift */,
+				C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */,
+				C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */,
+				C94F3109224573B3009DA879 /* Info.plist */,
+				C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */,
+				C94F310E224573B3009DA879 /* doeet_mapper_safari.entitlements */,
+			);
+			path = "doeet-mapper-safari";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94F30E72245735A009DA879 /* doeet-mapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper" */;
+			buildPhases = (
+				C94F30E42245735A009DA879 /* Sources */,
+				C94F30E52245735A009DA879 /* Frameworks */,
+				C94F30E62245735A009DA879 /* Resources */,
+				C94F3115224573B3009DA879 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94F3110224573B3009DA879 /* PBXTargetDependency */,
+			);
+			name = "doeet-mapper";
+			productName = "doeet-mapper";
+			productReference = C94F30E82245735A009DA879 /* doeet-mapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94F30FC224573B3009DA879 /* doeet-mapper-safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper-safari" */;
+			buildPhases = (
+				C94F30F9224573B3009DA879 /* Sources */,
+				C94F30FA224573B3009DA879 /* Frameworks */,
+				C94F30FB224573B3009DA879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doeet-mapper-safari";
+			productName = "doeet-mapper-safari";
+			productReference = C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94F30E02245735A009DA879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Logan McAnsh";
+				TargetAttributes = {
+					C94F30E72245735A009DA879 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C94F30FC224573B3009DA879 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = C94F30E32245735A009DA879 /* Build configuration list for PBXProject "doeet-mapper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94F30DF2245735A009DA879;
+			productRefGroup = C94F30E92245735A009DA879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94F30E72245735A009DA879 /* doeet-mapper */,
+				C94F30FC224573B3009DA879 /* doeet-mapper-safari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94F30E62245735A009DA879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F30EE2245735C009DA879 /* Assets.xcassets in Resources */,
+				C94F30F12245735C009DA879 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F30FB224573B3009DA879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F310D224573B3009DA879 /* ToolbarItemIcon.pdf in Resources */,
+				C94F3108224573B3009DA879 /* SafariExtensionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94F30E42245735A009DA879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F30EC2245735A009DA879 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F30F9224573B3009DA879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F3105224573B3009DA879 /* SafariExtensionViewController.swift in Sources */,
+				C94F3103224573B3009DA879 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94F3110224573B3009DA879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94F30FC224573B3009DA879 /* doeet-mapper-safari */;
+			targetProxy = C94F310F224573B3009DA879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C94F30EF2245735C009DA879 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94F30F02245735C009DA879 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94F3107224573B3009DA879 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C94F30F42245735C009DA879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C94F30F52245735C009DA879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C94F30F72245735C009DA879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "doeet-mapper/doeet_mapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				INFOPLIST_FILE = "doeet-mapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.doeet-mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C94F30F82245735C009DA879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "doeet-mapper/doeet_mapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				INFOPLIST_FILE = "doeet-mapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.doeet-mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C94F3112224573B3009DA879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "doeet-mapper-safari/doeet_mapper_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				INFOPLIST_FILE = "doeet-mapper-safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.doeet-mapper.doeet-mapper-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C94F3113224573B3009DA879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "doeet-mapper-safari/doeet_mapper_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
+				INFOPLIST_FILE = "doeet-mapper-safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.doeet-mapper.doeet-mapper-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94F30E32245735A009DA879 /* Build configuration list for PBXProject "doeet-mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F30F42245735C009DA879 /* Debug */,
+				C94F30F52245735C009DA879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F30F72245735C009DA879 /* Debug */,
+				C94F30F82245735C009DA879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F3112224573B3009DA879 /* Debug */,
+				C94F3113224573B3009DA879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C94F30E02245735A009DA879 /* Project object */;
+}

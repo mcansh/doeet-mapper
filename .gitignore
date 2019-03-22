@@ -1,2 +1,5 @@
 node_modules
 dist
+doeet-mapper-chrome.crx
+doeet-mapper-chrome.pem
+.ds_store
