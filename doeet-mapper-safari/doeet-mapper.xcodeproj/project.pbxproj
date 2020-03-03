@@ -16,6 +16,7 @@
 		C94F3108224573B3009DA879 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */; };
 		C94F310D224573B3009DA879 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */; };
 		C94F3111224573B3009DA879 /* doeet-mapper-safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9F16944240D5CF7004FE18A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C9F16943240D5CF6004FE18A /* index.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C94F3109224573B3009DA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		C94F310E224573B3009DA879 /* doeet_mapper_safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doeet_mapper_safari.entitlements; sourceTree = "<group>"; };
+		C9F16943240D5CF6004FE18A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		C94F3101224573B3009DA879 /* doeet-mapper-safari */ = {
 			isa = PBXGroup;
 			children = (
+				C9F16943240D5CF6004FE18A /* index.js */,
 				C94F3102224573B3009DA879 /* SafariExtensionHandler.swift */,
 				C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */,
 				C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F16944240D5CF7004FE18A /* index.js in Resources */,
 				C94F310D224573B3009DA879 /* ToolbarItemIcon.pdf in Resources */,
 				C94F3108224573B3009DA879 /* SafariExtensionViewController.xib in Resources */,
 			);
