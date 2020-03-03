@@ -1,20 +1,14 @@
 {
   "version": "1.0.0",
   "manifest_version": 2,
-  "name": "doeet-mapper",
+  "name": "VSCode link remapper",
   "description": "remap vscode browser urls to vscode insiders",
   "author": "Logan McAnsh",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "index.js"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
     }
   ]
 }

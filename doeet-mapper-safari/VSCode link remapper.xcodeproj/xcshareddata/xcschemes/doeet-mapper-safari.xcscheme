@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1130"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C94F30FC224573B3009DA879"
-               BuildableName = "doeet-mapper-safari.appex"
-               BlueprintName = "doeet-mapper-safari"
-               ReferencedContainer = "container:doeet-mapper.xcodeproj">
+               BuildableName = "VSCode link remapper-safari.appex"
+               BlueprintName = "VSCode link remapper-safari"
+               ReferencedContainer = "container:VSCode link remapper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C94F30E72245735A009DA879"
-               BuildableName = "doeet-mapper.app"
-               BlueprintName = "doeet-mapper"
-               ReferencedContainer = "container:doeet-mapper.xcodeproj">
+               BuildableName = "VSCode link remapper.app"
+               BlueprintName = "VSCode link remapper"
+               ReferencedContainer = "container:VSCode link remapper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,25 +42,24 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C94F30FC224573B3009DA879"
-            BuildableName = "doeet-mapper-safari.appex"
-            BlueprintName = "doeet-mapper-safari"
-            ReferencedContainer = "container:doeet-mapper.xcodeproj">
+            BuildableName = "VSCode link remapper-safari.appex"
+            BlueprintName = "VSCode link remapper-safari"
+            ReferencedContainer = "container:VSCode link remapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Release"
       selectedDebuggerIdentifier = ""
       selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
+      askForAppToLaunch = "Yes"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
@@ -76,13 +75,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C94F30E72245735A009DA879"
-            BuildableName = "doeet-mapper.app"
-            BlueprintName = "doeet-mapper"
-            ReferencedContainer = "container:doeet-mapper.xcodeproj">
+            BuildableName = "VSCode link remapper.app"
+            BlueprintName = "VSCode link remapper"
+            ReferencedContainer = "container:VSCode link remapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -96,9 +93,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C94F30E72245735A009DA879"
-            BuildableName = "doeet-mapper.app"
-            BlueprintName = "doeet-mapper"
-            ReferencedContainer = "container:doeet-mapper.xcodeproj">
+            BuildableName = "VSCode link remapper.app"
+            BlueprintName = "VSCode link remapper"
+            ReferencedContainer = "container:VSCode link remapper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

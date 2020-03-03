@@ -15,7 +15,7 @@
 		C94F3105224573B3009DA879 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */; };
 		C94F3108224573B3009DA879 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94F3106224573B3009DA879 /* SafariExtensionViewController.xib */; };
 		C94F310D224573B3009DA879 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C94F310C224573B3009DA879 /* ToolbarItemIcon.pdf */; };
-		C94F3111224573B3009DA879 /* doeet-mapper-safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C94F3111224573B3009DA879 /* VSCode link remapper-safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C94F30FD224573B3009DA879 /* VSCode link remapper-safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C9F16944240D5CF7004FE18A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C9F16943240D5CF6004FE18A /* index.js */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C94F3111224573B3009DA879 /* doeet-mapper-safari.appex in Embed App Extensions */,
+				C94F3111224573B3009DA879 /* VSCode link remapper-safari.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,13 +44,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C94F30E82245735A009DA879 /* doeet-mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doeet-mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F30E82245735A009DA879 /* VSCode link remapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VSCode link remapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94F30EB2245735A009DA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94F30ED2245735C009DA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94F30F02245735C009DA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C94F30F22245735C009DA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94F30F32245735C009DA879 /* doeet_mapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doeet_mapper.entitlements; sourceTree = "<group>"; };
-		C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "doeet-mapper-safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F30FD224573B3009DA879 /* VSCode link remapper-safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VSCode link remapper-safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94F30FF224573B3009DA879 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C94F3102224573B3009DA879 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		C94F3104224573B3009DA879 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		C94F30E92245735A009DA879 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C94F30E82245735A009DA879 /* doeet-mapper.app */,
-				C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */,
+				C94F30E82245735A009DA879 /* VSCode link remapper.app */,
+				C94F30FD224573B3009DA879 /* VSCode link remapper-safari.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,28 +136,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C94F30E72245735A009DA879 /* doeet-mapper */ = {
+		C94F30E72245735A009DA879 /* VSCode link remapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper" */;
+			buildConfigurationList = C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "VSCode link remapper" */;
 			buildPhases = (
 				C94F30E42245735A009DA879 /* Sources */,
 				C94F30E52245735A009DA879 /* Frameworks */,
 				C94F30E62245735A009DA879 /* Resources */,
 				C94F3115224573B3009DA879 /* Embed App Extensions */,
+				C9B2DD5D240EF9DB000D69F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C94F3110224573B3009DA879 /* PBXTargetDependency */,
 			);
-			name = "doeet-mapper";
+			name = "VSCode link remapper";
 			productName = "doeet-mapper";
-			productReference = C94F30E82245735A009DA879 /* doeet-mapper.app */;
+			productReference = C94F30E82245735A009DA879 /* VSCode link remapper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C94F30FC224573B3009DA879 /* doeet-mapper-safari */ = {
+		C94F30FC224573B3009DA879 /* VSCode link remapper-safari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper-safari" */;
+			buildConfigurationList = C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "VSCode link remapper-safari" */;
 			buildPhases = (
 				C94F30F9224573B3009DA879 /* Sources */,
 				C94F30FA224573B3009DA879 /* Frameworks */,
@@ -167,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = "doeet-mapper-safari";
+			name = "VSCode link remapper-safari";
 			productName = "doeet-mapper-safari";
-			productReference = C94F30FD224573B3009DA879 /* doeet-mapper-safari.appex */;
+			productReference = C94F30FD224573B3009DA879 /* VSCode link remapper-safari.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +180,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Logan McAnsh";
 				TargetAttributes = {
 					C94F30E72245735A009DA879 = {
@@ -190,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C94F30E32245735A009DA879 /* Build configuration list for PBXProject "doeet-mapper" */;
+			buildConfigurationList = C94F30E32245735A009DA879 /* Build configuration list for PBXProject "VSCode link remapper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -203,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C94F30E72245735A009DA879 /* doeet-mapper */,
-				C94F30FC224573B3009DA879 /* doeet-mapper-safari */,
+				C94F30E72245735A009DA879 /* VSCode link remapper */,
+				C94F30FC224573B3009DA879 /* VSCode link remapper-safari */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +232,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9B2DD5D240EF9DB000D69F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "echo pwd\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C94F30E42245735A009DA879 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -254,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		C94F3110224573B3009DA879 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C94F30FC224573B3009DA879 /* doeet-mapper-safari */;
+			target = C94F30FC224573B3009DA879 /* VSCode link remapper-safari */;
 			targetProxy = C94F310F224573B3009DA879 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,6 +421,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "doeet-mapper/doeet_mapper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
@@ -420,6 +442,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "doeet-mapper/doeet_mapper.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
@@ -438,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "doeet-mapper-safari/doeet_mapper_safari.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "doeet-mapper-safari/Info.plist";
@@ -457,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "doeet-mapper-safari/doeet_mapper_safari.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "doeet-mapper-safari/Info.plist";
@@ -475,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C94F30E32245735A009DA879 /* Build configuration list for PBXProject "doeet-mapper" */ = {
+		C94F30E32245735A009DA879 /* Build configuration list for PBXProject "VSCode link remapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C94F30F42245735C009DA879 /* Debug */,
@@ -484,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper" */ = {
+		C94F30F62245735C009DA879 /* Build configuration list for PBXNativeTarget "VSCode link remapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C94F30F72245735C009DA879 /* Debug */,
@@ -493,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "doeet-mapper-safari" */ = {
+		C94F3114224573B3009DA879 /* Build configuration list for PBXNativeTarget "VSCode link remapper-safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C94F3112224573B3009DA879 /* Debug */,
