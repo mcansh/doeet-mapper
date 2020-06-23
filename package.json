@@ -12,7 +12,7 @@
   "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf ./dist && tsc && cp src/{icon.png,icon@2x.png,manifest.json} dist",
+    "build": "rm -rf ./dist && tsc && cp src/{icon-{256,512,1024}.png,manifest.json} dist",
     "prepare": "tsc"
   },
   "devDependencies": {

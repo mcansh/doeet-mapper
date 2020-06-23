@@ -14,10 +14,11 @@
 		C96DAE9C24A2801300C0632B /* VSCode link remapper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C96DAE9B24A2801300C0632B /* VSCode link remapper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C96DAEA124A2801300C0632B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96DAEA024A2801300C0632B /* Cocoa.framework */; };
 		C96DAEA424A2801300C0632B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DAEA324A2801300C0632B /* SafariWebExtensionHandler.swift */; };
-		C9A044DF24A285C300764E85 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044D924A285C300764E85 /* icon@2x.png */; };
-		C9A044E024A285C300764E85 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DA24A285C300764E85 /* icon.png */; };
 		C9A044E124A285C300764E85 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DB24A285C300764E85 /* manifest.json */; };
 		C9A044E224A285C300764E85 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DD24A285C300764E85 /* index.js */; };
+		C9A044E824A2883B00764E85 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044E524A2883B00764E85 /* icon-256.png */; };
+		C9A044E924A2883B00764E85 /* icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044E624A2883B00764E85 /* icon-1024.png */; };
+		C9A044EA24A2883B00764E85 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044E724A2883B00764E85 /* icon-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +58,12 @@
 		C96DAEA324A2801300C0632B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		C96DAEA524A2801300C0632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96DAEA624A2801300C0632B /* VSCode_link_remapper_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSCode_link_remapper_Extension.entitlements; sourceTree = "<group>"; };
-		C9A044D924A285C300764E85 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../dist/icon@2x.png"; sourceTree = "<group>"; };
-		C9A044DA24A285C300764E85 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../dist/icon.png; sourceTree = "<group>"; };
 		C9A044DB24A285C300764E85 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
 		C9A044DC24A285C300764E85 /* index.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = index.js.map; path = ../../dist/index.js.map; sourceTree = "<group>"; };
 		C9A044DD24A285C300764E85 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../dist/index.js; sourceTree = "<group>"; };
+		C9A044E524A2883B00764E85 /* icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-256.png"; path = "../../dist/icon-256.png"; sourceTree = "<group>"; };
+		C9A044E624A2883B00764E85 /* icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1024.png"; path = "../../dist/icon-1024.png"; sourceTree = "<group>"; };
+		C9A044E724A2883B00764E85 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-512.png"; path = "../../dist/icon-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +139,9 @@
 		C96DAEB024A2801300C0632B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C9A044DA24A285C300764E85 /* icon.png */,
-				C9A044D924A285C300764E85 /* icon@2x.png */,
+				C9A044E524A2883B00764E85 /* icon-256.png */,
+				C9A044E724A2883B00764E85 /* icon-512.png */,
+				C9A044E624A2883B00764E85 /* icon-1024.png */,
 				C9A044DD24A285C300764E85 /* index.js */,
 				C9A044DC24A285C300764E85 /* index.js.map */,
 				C9A044DB24A285C300764E85 /* manifest.json */,
@@ -237,9 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A044E224A285C300764E85 /* index.js in Resources */,
+				C9A044E924A2883B00764E85 /* icon-1024.png in Resources */,
 				C9A044E124A285C300764E85 /* manifest.json in Resources */,
-				C9A044DF24A285C300764E85 /* icon@2x.png in Resources */,
-				C9A044E024A285C300764E85 /* icon.png in Resources */,
+				C9A044E824A2883B00764E85 /* icon-256.png in Resources */,
+				C9A044EA24A2883B00764E85 /* icon-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
