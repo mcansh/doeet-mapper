@@ -409,6 +409,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper Extension/VSCode_link_remapper_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "VSCode link remapper Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -416,7 +417,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.vscode-insiders-link-mapper-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +429,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper Extension/VSCode_link_remapper_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "VSCode link remapper Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,7 +437,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.vscode-insiders-link-mapper-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,13 +453,14 @@
 				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper/VSCode_link_remapper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "VSCode link remapper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper";
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.vscode-insiders-link-mapper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -472,13 +475,14 @@
 				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper/VSCode_link_remapper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZN48NS8HAP;
 				INFOPLIST_FILE = "VSCode link remapper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper";
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.mcan.vscode-insiders-link-mapper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
