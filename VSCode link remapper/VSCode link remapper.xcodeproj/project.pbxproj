@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C96DAE8E24A2801200C0632B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DAE8D24A2801200C0632B /* AppDelegate.swift */; };
+		C96DAE9124A2801200C0632B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DAE8F24A2801200C0632B /* Main.storyboard */; };
+		C96DAE9324A2801200C0632B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DAE9224A2801200C0632B /* ViewController.swift */; };
+		C96DAE9524A2801200C0632B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96DAE9424A2801200C0632B /* Assets.xcassets */; };
+		C96DAE9C24A2801300C0632B /* VSCode link remapper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C96DAE9B24A2801300C0632B /* VSCode link remapper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C96DAEA124A2801300C0632B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96DAEA024A2801300C0632B /* Cocoa.framework */; };
+		C96DAEA424A2801300C0632B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DAEA324A2801300C0632B /* SafariWebExtensionHandler.swift */; };
+		C9A044DF24A285C300764E85 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044D924A285C300764E85 /* icon@2x.png */; };
+		C9A044E024A285C300764E85 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DA24A285C300764E85 /* icon.png */; };
+		C9A044E124A285C300764E85 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DB24A285C300764E85 /* manifest.json */; };
+		C9A044E224A285C300764E85 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C9A044DD24A285C300764E85 /* index.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C96DAE9D24A2801300C0632B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C96DAE8124A2801200C0632B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C96DAE9A24A2801300C0632B;
+			remoteInfo = "VSCode link remapper Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C96DAEAC24A2801300C0632B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C96DAE9C24A2801300C0632B /* VSCode link remapper Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C96DAE8924A2801200C0632B /* VSCode link remapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VSCode link remapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96DAE8C24A2801200C0632B /* VSCode_link_remapper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSCode_link_remapper.entitlements; sourceTree = "<group>"; };
+		C96DAE8D24A2801200C0632B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96DAE9024A2801200C0632B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96DAE9224A2801200C0632B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96DAE9424A2801200C0632B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96DAE9624A2801200C0632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96DAE9B24A2801300C0632B /* VSCode link remapper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VSCode link remapper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96DAEA024A2801300C0632B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C96DAEA324A2801300C0632B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C96DAEA524A2801300C0632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96DAEA624A2801300C0632B /* VSCode_link_remapper_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSCode_link_remapper_Extension.entitlements; sourceTree = "<group>"; };
+		C9A044D924A285C300764E85 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../dist/icon@2x.png"; sourceTree = "<group>"; };
+		C9A044DA24A285C300764E85 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../dist/icon.png; sourceTree = "<group>"; };
+		C9A044DB24A285C300764E85 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
+		C9A044DC24A285C300764E85 /* index.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = index.js.map; path = ../../dist/index.js.map; sourceTree = "<group>"; };
+		C9A044DD24A285C300764E85 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../dist/index.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96DAE8624A2801200C0632B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96DAE9824A2801300C0632B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96DAEA124A2801300C0632B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C96DAE8024A2801200C0632B = {
+			isa = PBXGroup;
+			children = (
+				C96DAE8B24A2801200C0632B /* VSCode link remapper */,
+				C96DAEA224A2801300C0632B /* VSCode link remapper Extension */,
+				C96DAE9F24A2801300C0632B /* Frameworks */,
+				C96DAE8A24A2801200C0632B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C96DAE8A24A2801200C0632B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96DAE8924A2801200C0632B /* VSCode link remapper.app */,
+				C96DAE9B24A2801300C0632B /* VSCode link remapper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96DAE8B24A2801200C0632B /* VSCode link remapper */ = {
+			isa = PBXGroup;
+			children = (
+				C96DAE8C24A2801200C0632B /* VSCode_link_remapper.entitlements */,
+				C96DAE8D24A2801200C0632B /* AppDelegate.swift */,
+				C96DAE8F24A2801200C0632B /* Main.storyboard */,
+				C96DAE9224A2801200C0632B /* ViewController.swift */,
+				C96DAE9424A2801200C0632B /* Assets.xcassets */,
+				C96DAE9624A2801200C0632B /* Info.plist */,
+			);
+			path = "VSCode link remapper";
+			sourceTree = "<group>";
+		};
+		C96DAE9F24A2801300C0632B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96DAEA024A2801300C0632B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C96DAEA224A2801300C0632B /* VSCode link remapper Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C96DAEB024A2801300C0632B /* Resources */,
+				C96DAEA324A2801300C0632B /* SafariWebExtensionHandler.swift */,
+				C96DAEA524A2801300C0632B /* Info.plist */,
+				C96DAEA624A2801300C0632B /* VSCode_link_remapper_Extension.entitlements */,
+			);
+			path = "VSCode link remapper Extension";
+			sourceTree = "<group>";
+		};
+		C96DAEB024A2801300C0632B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9A044DA24A285C300764E85 /* icon.png */,
+				C9A044D924A285C300764E85 /* icon@2x.png */,
+				C9A044DD24A285C300764E85 /* index.js */,
+				C9A044DC24A285C300764E85 /* index.js.map */,
+				C9A044DB24A285C300764E85 /* manifest.json */,
+			);
+			name = Resources;
+			path = "VSCode link remapper Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96DAE8824A2801200C0632B /* VSCode link remapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96DAEAD24A2801300C0632B /* Build configuration list for PBXNativeTarget "VSCode link remapper" */;
+			buildPhases = (
+				C96DAE8524A2801200C0632B /* Sources */,
+				C96DAE8624A2801200C0632B /* Frameworks */,
+				C96DAE8724A2801200C0632B /* Resources */,
+				C96DAEAC24A2801300C0632B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C96DAE9E24A2801300C0632B /* PBXTargetDependency */,
+			);
+			name = "VSCode link remapper";
+			productName = "VSCode link remapper";
+			productReference = C96DAE8924A2801200C0632B /* VSCode link remapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C96DAE9A24A2801300C0632B /* VSCode link remapper Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96DAEA924A2801300C0632B /* Build configuration list for PBXNativeTarget "VSCode link remapper Extension" */;
+			buildPhases = (
+				C96DAE9724A2801300C0632B /* Sources */,
+				C96DAE9824A2801300C0632B /* Frameworks */,
+				C96DAE9924A2801300C0632B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VSCode link remapper Extension";
+			productName = "VSCode link remapper Extension";
+			productReference = C96DAE9B24A2801300C0632B /* VSCode link remapper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96DAE8124A2801200C0632B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C96DAE8824A2801200C0632B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					C96DAE9A24A2801300C0632B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = C96DAE8424A2801200C0632B /* Build configuration list for PBXProject "VSCode link remapper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C96DAE8024A2801200C0632B;
+			productRefGroup = C96DAE8A24A2801200C0632B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96DAE8824A2801200C0632B /* VSCode link remapper */,
+				C96DAE9A24A2801300C0632B /* VSCode link remapper Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96DAE8724A2801200C0632B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96DAE9524A2801200C0632B /* Assets.xcassets in Resources */,
+				C96DAE9124A2801200C0632B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96DAE9924A2801300C0632B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A044E224A285C300764E85 /* index.js in Resources */,
+				C9A044E124A285C300764E85 /* manifest.json in Resources */,
+				C9A044DF24A285C300764E85 /* icon@2x.png in Resources */,
+				C9A044E024A285C300764E85 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96DAE8524A2801200C0632B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96DAE9324A2801200C0632B /* ViewController.swift in Sources */,
+				C96DAE8E24A2801200C0632B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96DAE9724A2801300C0632B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96DAEA424A2801300C0632B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C96DAE9E24A2801300C0632B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C96DAE9A24A2801300C0632B /* VSCode link remapper Extension */;
+			targetProxy = C96DAE9D24A2801300C0632B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C96DAE8F24A2801200C0632B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96DAE9024A2801200C0632B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C96DAEA724A2801300C0632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C96DAEA824A2801300C0632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C96DAEAA24A2801300C0632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper Extension/VSCode_link_remapper_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "VSCode link remapper Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C96DAEAB24A2801300C0632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper Extension/VSCode_link_remapper_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "VSCode link remapper Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C96DAEAE24A2801300C0632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper/VSCode_link_remapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "VSCode link remapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C96DAEAF24A2801300C0632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VSCode link remapper/VSCode_link_remapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "VSCode link remapper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.VSCode-link-remapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96DAE8424A2801200C0632B /* Build configuration list for PBXProject "VSCode link remapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DAEA724A2801300C0632B /* Debug */,
+				C96DAEA824A2801300C0632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96DAEA924A2801300C0632B /* Build configuration list for PBXNativeTarget "VSCode link remapper Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DAEAA24A2801300C0632B /* Debug */,
+				C96DAEAB24A2801300C0632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96DAEAD24A2801300C0632B /* Build configuration list for PBXNativeTarget "VSCode link remapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96DAEAE24A2801300C0632B /* Debug */,
+				C96DAEAF24A2801300C0632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96DAE8124A2801200C0632B /* Project object */;
+}

@@ -2,12 +2,18 @@
   "name": "doeet-mapper",
   "version": "1.0.0",
   "description": "remap vscode browser urls to vscode insiders",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": "https://github.com/mcansh/doeet-mapper",
   "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && cp dist/index.js ./doeet-mapper-safari/doeet-mapper-safari && cp dist/index.js ./doeet-mapper-chrome"
+    "build": "rm -rf ./dist && tsc && cp src/{icon.png,icon@2x.png,manifest.json} dist",
+    "prepare": "tsc"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

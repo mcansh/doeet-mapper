@@ -1,15 +1,13 @@
 {
-  "include": [
-    "source/index.ts"
-  ],
+  "include": ["src"],
   "compilerOptions": {
     "outDir": "dist",
-    "module": "es2015",
-    "target": "es2015",
-    "lib": [
-      "es5",
-      "dom",
-      "es2015"
-    ],
+    "module": "ESNext",
+    "target": "ES5",
+    "lib": ["DOM", "ES5", "ES2015"],
+    "sourceMap": true,
+    "rootDir": "./src",
+    "strict": true,
+    "removeComments": true
   }
 }

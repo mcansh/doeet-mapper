@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "name": "VSCode link remapper",
+  "description": "remap vscode browser urls to vscode insiders",
+  "author": "Logan McAnsh",
+  "permissions": ["activeTab"],
+  "icons": {
+    "512": "icon.png",
+    "1024": "icon@2x.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ]
+}
