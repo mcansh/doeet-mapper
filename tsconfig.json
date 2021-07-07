@@ -5,6 +5,7 @@
     "module": "es2015",
     "target": "es2015",
     "lib": ["es5", "dom", "es2015"],
-    "removeComments": true
+    "removeComments": true,
+    "skipLibCheck": true
   }
 }
