@@ -1,6 +1,6 @@
 {
   "name": "doeet-mapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remap vscode browser urls to vscode insiders",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
